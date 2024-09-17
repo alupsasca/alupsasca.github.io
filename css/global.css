@@ -1,5 +1,5 @@
 /* Import the Roboto font with different weights */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;700&display=swap');
 
 /* Define CSS variables for the color scheme */
 :root {
@@ -10,6 +10,7 @@
   --color-accent: #772709; /* Orange accents */
   --color-light-grey: #D3D3D3; /* Light grey text */
   --color-grey: #C0C0C0; /* Light grey text */
+  --color-grey-lighter: #e6e6e6; /* Light grey text */
 }
 
 /* Apply global styles */
