@@ -4,7 +4,7 @@ function sendEmail() {
     var messageText = document.getElementById('message').value;
     var emailAddress = 'trevor.gravely@vanderbilt.edu'; // Replace with the desired email address
     var subject = 'Email from website';
-    var body = 'Message content';
+    var body = 'Message content: ' + messageText;
     var mailtoLink = 'mailto:' + emailAddress + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
     window.location.href = mailtoLink;
 }
